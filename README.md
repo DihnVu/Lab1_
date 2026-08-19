@@ -4,12 +4,12 @@
 
 Bài thực hành xây dựng một chương trình Java có:
 
-* Ít nhất một vòng lặp.
-* Ít nhất một lệnh rẽ nhánh.
-* Các ca kiểm thử bằng JUnit.
-* Kiểm thử bao phủ tất cả các lệnh (Statement Coverage).
-* Kiểm thử bao phủ các đường đi trong chương trình (Path Coverage).
-* Quản lý mã nguồn và quá trình thực hiện bài bằng GitHub Issues và Git Commits.
+- Ít nhất một vòng lặp.
+- Ít nhất một lệnh rẽ nhánh.
+- Các ca kiểm thử bằng JUnit.
+- Kiểm thử bao phủ tất cả các lệnh (Statement Coverage).
+- Kiểm thử bao phủ các đường đi trong chương trình (Path Coverage).
+- Quản lý mã nguồn và quá trình thực hiện bài bằng GitHub Issues và Git Commits.
 
 ## 2. Cấu trúc project
 
