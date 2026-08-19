@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CalculatorPathTest {
+public class Test_issue2 {
 
     @Test
     void testLoopNotExecuted() {
@@ -14,21 +14,21 @@ public class CalculatorPathTest {
     }
 
     @Test
-    void testIfConditionTrue() {
-        Calculator calculator = new Calculator();
-
-        int result = calculator.sumEvenNumbers(2);
-
-        assertEquals(2, result);
-    }
-
-    @Test
     void testIfConditionFalse() {
         Calculator calculator = new Calculator();
 
         int result = calculator.sumEvenNumbers(1);
 
         assertEquals(0, result);
+    }
+
+    @Test
+    void testIfConditionTrue() {
+        Calculator calculator = new Calculator();
+
+        int result = calculator.sumEvenNumbers(2);
+
+        assertEquals(2, result);
     }
 
     @Test
